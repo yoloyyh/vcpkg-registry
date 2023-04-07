@@ -1,5 +1,9 @@
 {
   "default": {
+    "aio": {
+      "baseline": "1.0.0",
+      "port-version": 0
+    },
     "zero": {
       "baseline": "1.0.0",
       "port-version": 0
