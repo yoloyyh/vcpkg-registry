@@ -1,9 +1,11 @@
 {
   "name": "zero",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hackerl' private C++ library",
   "homepage": "https://github.com/Hackerl/zero",
   "dependencies": [
+    "expected-lite",
+    "span-lite",
     {
       "name": "vcpkg-cmake",
       "host": true
