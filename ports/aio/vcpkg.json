@@ -1,6 +1,6 @@
 {
   "name": "aio",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "C++ asynchronous framework",
   "homepage": "https://github.com/Hackerl/aio",
   "dependencies": [
@@ -27,6 +27,9 @@
     "openssl"
   ],
   "features": {
+    "embedded": {
+      "description": "Embedding CA certs"
+    },
     "openssl": {
       "description": "Support for openssl",
       "dependencies": [
