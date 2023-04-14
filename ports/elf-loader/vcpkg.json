@@ -1,0 +1,21 @@
+{
+  "name": "elf-loader",
+  "version": "1.0.0",
+  "description": "elf loader library",
+  "homepage": "https://github.com/Hackerl/elf-loader",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ],
+  "features": {
+    "anonymous": {
+      "description": "Load elf into anonymous memory"
+    }
+  }
+}
