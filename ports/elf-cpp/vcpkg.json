@@ -1,0 +1,16 @@
+{
+  "name": "elf-cpp",
+  "version": "1.0.0",
+  "description": "ELF reader C++ library",
+  "homepage": "https://github.com/Hackerl/elf",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
