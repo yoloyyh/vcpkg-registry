@@ -1,0 +1,24 @@
+{
+  "name": "c-runtime",
+  "version": "1.0.0",
+  "description": "Mini C-Runtime",
+  "homepage": "https://github.com/Hackerl/c-runtime",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ],
+  "default-features": [
+    "cache"
+  ],
+  "features": {
+    "cache": {
+      "description": "Cache heap memory"
+    }
+  }
+}
