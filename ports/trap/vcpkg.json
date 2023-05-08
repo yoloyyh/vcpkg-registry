@@ -1,0 +1,17 @@
+{
+  "name": "trap",
+  "version": "1.0.0",
+  "description": "Simple x64 hooking library",
+  "homepage": "https://github.com/Hackerl/trap",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    "zydis"
+  ]
+}
