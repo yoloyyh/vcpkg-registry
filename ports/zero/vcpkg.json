@@ -1,10 +1,14 @@
 {
   "name": "zero",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hackerl' private C++ library",
   "homepage": "https://github.com/Hackerl/zero",
   "dependencies": [
     "expected-lite",
+    {
+      "name": "libiconv",
+      "platform": "windows | android"
+    },
     "span-lite",
     {
       "name": "vcpkg-cmake",
@@ -14,5 +18,11 @@
       "name": "vcpkg-cmake-config",
       "host": true
     }
-  ]
+  ],
+  "features": {
+    "legacy": {
+      "description": "Compatible with older Windows",
+      "supports": "windows"
+    }
+  }
 }
