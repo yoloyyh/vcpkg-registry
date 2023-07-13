@@ -1,6 +1,6 @@
 {
   "name": "aio",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "C++ asynchronous framework",
   "homepage": "https://github.com/Hackerl/aio",
   "dependencies": [
@@ -20,7 +20,7 @@
     },
     {
       "name": "zero",
-      "version>=": "1.0.2"
+      "version>=": "1.0.4"
     }
   ],
   "default-features": [
