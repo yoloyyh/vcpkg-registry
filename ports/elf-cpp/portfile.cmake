@@ -1,8 +1,8 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO Hackerl/elf
-        REF 35858fbeaaa13ca89acece1689981240bf6c4912
-        SHA512 341b7994019ad4741b8403d953b95878829fb4adc963cdab80c29e7b3a128ef2080388e0eec448e8902fc90c2b74f541e2b9ed0fe2ec672f9da1b1df4848fede
+        REF 73ca432e8ba65325f8486720ecf9b822a19ffa20
+        SHA512 a337bc5ce9af1e3d6c30571f4758031eb8cbe2e2cf698019def4e9b390b1f99334cccbf03d3255af8e95595cca19e41798ef36f19b07c2719481dfe3adb509e6
 )
 
 vcpkg_configure_cmake(
