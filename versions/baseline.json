@@ -4,6 +4,10 @@
       "baseline": "1.0.5",
       "port-version": 0
     },
+    "asyncio": {
+      "baseline": "1.0.0",
+      "port-version": 0
+    },
     "c-runtime": {
       "baseline": "1.0.0",
       "port-version": 0
