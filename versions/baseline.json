@@ -35,6 +35,10 @@
     "zero": {
       "baseline": "1.0.5",
       "port-version": 0
+    },
+    "zero-legacy": {
+      "baseline": "1.0.0",
+      "port-version": 0
     }
   }
 }
