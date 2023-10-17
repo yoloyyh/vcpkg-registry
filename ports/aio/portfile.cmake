@@ -1,6 +1,6 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
-        REPO Hackerl/aio
+        REPO yoloyyh/aio
         REF ec0a145ad01a7901c04ae91dacc8be92a8c601fa
         SHA512 7f1f05ed69818046af90626dad0bad0822054c2ad81ebf70ebc638e5290ebbc1d36bae0e728ad164c2a5235d762533be597a08da3d4e4cdac0d1ead661319ac0
 )

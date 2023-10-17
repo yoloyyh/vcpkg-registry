@@ -2,7 +2,7 @@
   "name": "aio",
   "version": "1.0.5",
   "description": "C++ asynchronous framework",
-  "homepage": "https://github.com/Hackerl/aio",
+  "homepage": "https://github.com/yoloyyh/aio",
   "dependencies": [
     {
       "name": "curl",
